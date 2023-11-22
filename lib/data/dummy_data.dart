@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:meals/models/category.dart';
-
 const availableCategories = [
  Category(
       id: 'c1',
@@ -41,5 +40,15 @@ const availableCategories = [
       id: 'c8',
       title: 'Noddels',
       color: Color.fromARGB(255, 91, 76, 175),  
+ ), Category(
+      id: 'c9',
+      title: 'Chicken',
+      color: Color.fromARGB(255, 175, 76, 84),  
  ),
+  Category(
+      id: 'c10',
+      title: 'KFC',
+      color: Color.fromARGB(255, 76, 163, 175),  
+ ),
+
 ];
